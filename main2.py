@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 @st.cache_data
 
 def get_data():
-    df = pd.read_excel(r"C:\Users\EXPORT-TYP\PycharmProjects\pythonProject\new_car_file3.xlsx")
+    df = pd.read_excel("car.xlsx")
     return df
 
 def get_model():
